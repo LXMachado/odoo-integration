@@ -27,6 +27,7 @@ Thumbs.db
 # Build output
 dist/
 build/
+*.tsbuildinfo
 
 # Test coverage
 coverage/
@@ -34,3 +35,4 @@ coverage/
 # Generated docs
 ODOO_CODEX_ITERATION_1.md
 ODOO_CODEX_ITERATION1.md
+ODOO_CODEX_ITERATION_2.md
