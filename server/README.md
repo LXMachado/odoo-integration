@@ -44,6 +44,14 @@ Run tests:
 npm test
 ```
 
+## Screenshots
+
+The React client uses this backend to list contacts from Odoo and submit contact changes back through the integration API.
+
+![Odoo contact dashboard](docs/screenshots/contacts-dashboard.png)
+
+![New contact drawer](docs/screenshots/new-contact-drawer.png)
+
 ## Endpoints
 
 - `GET /health`
