@@ -72,7 +72,7 @@ The UI does not maintain its own contact database. After successful writes, it r
 
 ### Prerequisites
 
-- Node.js 18 or newer, for the built-in `fetch` API.
+- Node.js 22.12.0 or newer.
 - Docker Compose.
 - A local Odoo 19 database named `odoo_dev`.
 - An Odoo API key with access to `res.partner`.
@@ -137,6 +137,13 @@ Run frontend tests:
 cd client
 npm test
 ```
+
+## Continuous Integration
+
+GitHub Actions runs two CI jobs on pushes to `main` and on pull requests:
+
+- Server tests: `npm ci` and `npm test` in `server/`.
+- Client checks: `npm ci`, `npm test`, and `npm run build` in `client/`.
 
 ## Endpoints
 
